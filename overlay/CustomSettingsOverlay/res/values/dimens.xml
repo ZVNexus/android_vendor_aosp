@@ -15,18 +15,7 @@
 -->
 <resources>
 
-    <style name="SuggestionCardText">
-        <item name="android:textAlignment">center</item>
-    </style>
-
-    <style name="SuggestionCardIcon">
-        <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_alignParentStart">false</item>
-    </style>
-
-    <style name="TextAppearance.SearchBar" parent="@*android:style/TextAppearance.Material.Widget.Toolbar.Subtitle">
-        <item name="android:textSize">16dp</item>
-        <item name="android:layout_gravity">center</item>
-    </style>
+    <dimen name="search_bar_corner_radius">24.0dip</dimen>
+    <dimen name="suggestion_card_corner_radius">8.0dip</dimen>
 
 </resources>
