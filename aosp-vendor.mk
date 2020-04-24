@@ -20,8 +20,7 @@ endif
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip \
-    $(LOCAL_PATH)/bootanimation/bootanimation-dark.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
+    $(LOCAL_PATH)/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
 # Fonts
 PRODUCT_COPY_FILES += \
